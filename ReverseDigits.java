@@ -6,7 +6,6 @@ public class ReverseDigits {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ENTER DIGITS TO REVERSE");
 		int digit=sc.nextInt();
 		int rem=0,c=0;
 		int arr[]=new int[10];
