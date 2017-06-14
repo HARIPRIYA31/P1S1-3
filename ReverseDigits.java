@@ -10,6 +10,8 @@ public class ReverseDigits {
 		int digit=sc.nextInt();
 		int rem=0,c=0;
 		int arr[]=new int[10];
+		if(digit>0)
+		{
 		while(digit>0)
 		{
 			rem=digit%10;
@@ -19,6 +21,9 @@ public class ReverseDigits {
 		System.out.println("REVERSED DIGIT:");
 		for(int i=0;i<c;i++)
 			System.out.print(arr[i]);
+		}
+		else
+			System.out.println("0");
 		sc.close();
 
 	}
